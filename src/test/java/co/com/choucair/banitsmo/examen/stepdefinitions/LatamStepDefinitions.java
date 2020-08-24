@@ -37,7 +37,7 @@ public class LatamStepDefinitions {
     @Then("^valida que la longitud es (.*)$")
     public void validaQueLaLongitudEs(String longitud) {
         OnStage.theActorInTheSpotlight().should(
-                seeThat("la longitud del codigo es", Valida.longitudCodigo(), equalTo(longitud))
+                seeThat("la longitud del codigo", Valida.longitudCodigo(), equalTo(longitud))
         );
     }
 }
