@@ -1,4 +1,4 @@
-Feature: reto de automatización web latam para ingreso a Banitsmo
+Feature: reto de automatización web latam para ingreso a Banistmo
 
   Scenario:validar longitud de codigo
     Given que el usuario ingresa a la web de Latam
